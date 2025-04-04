@@ -99,34 +99,6 @@ nav ul li a:hover {
   line-height: 1.8;
 }
 
-/* スクリーンショット＆キャラクター */
-.screenshots {
-  padding: 60px 0;
-  background: #f4f4f4;
-  text-align: center;
-}
-
-.screenshots h2 {
-  margin-bottom: 40px;
-  font-size: 2.2rem;
-}
-
-.images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.image-item {
-  text-align: center;
-}
-
-.image-item img {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-}
-
 /* プライバシーポリシー・利用規約 */
 .privacy, .terms {
   padding: 60px 0;
@@ -143,6 +115,38 @@ nav ul li a:hover {
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.8;
+}
+
+/* お問い合わせ */
+.contact {
+  padding: 60px 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2575fc;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #1a5cb8;
 }
 
 /* フッター */
